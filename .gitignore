@@ -1,0 +1,8 @@
+node_modules
+dist
+results
+.nyc_output
+*.tsbuildinfo
+public
+packages/frontend/.next
+packages/frontend/out

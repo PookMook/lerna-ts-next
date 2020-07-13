@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "name": "poc",
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/packages/frontend/out/$1",
+      "headers": {
+        "x-request-path": "$1"
+      }
+    }
+  ],
+  "env": {
+    "SECRET": "dev-key"
+  }
+}
